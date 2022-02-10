@@ -7,7 +7,6 @@
 
 .container{
     max-width: 100%;
-    /* border: 3px solid black; */
     margin-bottom: 1rem;
 }
 
@@ -15,20 +14,17 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* border: 3px solid yellow; */
 }
 
 .col{
     flex-grow: 1;
     flex-basis: 0;
     max-width: 100%;
-    /* border: 3px solid blue; */
 }
 
 [class*="col-"]{
     flex: 0 0 auto;
     padding: .1rem;
-    /* border: 3px solid green; */
 }
 
 .blue-box{
